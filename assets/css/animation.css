@@ -1,0 +1,146 @@
+#header-nav,
+#header-nav.active,
+#header-nav.active a.active + .sub-menu .menu-item,
+#header-nav.active a + .sub-menu .menu-item,
+#header-menu > .menu-item .sub-menu,
+#header-menu > .menu-item:hover .sub-menu,
+meter, meter:after,
+.pushdown, .pushdown.active, .pushdown.active.open,
+.pushdown img, .pushdown.active img {
+	-moz-transition: all 300ms ease; 
+	-webkit-transition: all 300ms ease; 
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+
+	header .page-title, 
+	.callout.dark figcaption,
+	.callout:not(.dark) > *, 
+	[class*='-box'] .content *, 
+	.gradient-box article,
+	#header-menu > .menu-item {
+		opacity: 0;
+	}
+	.gradient-box article,
+	.callout.dark figcaption,
+	.callout:not(.dark) > * {
+		-webkit-transform: translateY(10%);
+		-moz-transform: translateY(10%);
+		-o-transform: translateY(10%);
+		transform: translateY(10%);
+	}
+		.gradient-box.active article,
+		.callout.dark.active figcaption,
+		.callout.active:not(.dark) > * {
+			-o-transform: translateY(0);
+			-moz-transform: translateY(0);
+			-webkit-transform: translateY(0);
+			transform: translateY(0);;
+		}
+		header.active .page-title,
+		.callout.dark.active figcaption,
+		.callout:not(.dark).active > *, 
+		.active [class*='-box'] .content *, 
+		[class*='-box'].active .content *,
+		.gradient-box.active article,
+		#header-nav .menu-item.active {
+			opacity: 1;
+		}
+
+	a, 
+	a:focus,
+	a:active,
+	a.active, 
+	a:hover,
+	#header-nav .menu-item,
+	#header-nav .menu-item.active,
+	header .page-title, 
+	header.active .page-title, 
+	[class*='-box'] .content *,
+	[class*='-box'].active .content *,
+	#postbox-container-1, #postbox-container-1.active, 
+	#post-body-content, #post-body-content.collapsed
+	.postbox, .postbox.active, 
+	.callout,
+	.callout.active,
+	.callout > *,
+	.callout.active > *,
+	.callout.dark figcaption,
+	.callout.dark.active figcaption {
+		-moz-transition: all 300ms ease; 
+		-webkit-transition: all 300ms ease; 
+		-o-transition: all 300ms ease;
+		transition: all 300ms ease;
+	}
+@media screen and (min-width: 64em){
+		.stagger0,
+		#header-nav .menu-item.stagger0,
+		.callout > h1,
+		.callout > h3,
+		.callout.active > h1,
+		.callout.active > h3,
+		.active [class*='-box'] .content ul li:first-of-type,
+		.pushdown.active img {
+			-moz-transition-delay: 100ms;
+			-webkit-transition-delay: 100ms;
+			-o-transition-delay: 100ms;
+			transition-delay: 100ms;
+		}
+		.stagger1,
+		#header-nav .menu-item.stagger1,
+		.callout > h2,
+		.callout > p,
+		.callout.active > h2,
+		.callout.active > p,
+		.callout.dark figcaption,
+		.active [class*='-box'] .content ul li:nth-of-type(2) {
+			-moz-transition-delay: 150ms;
+			-webkit-transition-delay: 150ms;
+			-o-transition-delay: 150ms;
+			transition-delay: 150ms;
+		}
+		.stagger2
+		#header-nav .menu-item.stagger2,
+		.active [class*='-box'] .content ul li:nth-of-type(3) {
+			-moz-transition-delay: 200ms;
+			-webkit-transition-delay: 200ms;
+			-o-transition-delay: 200ms;
+			transition-delay: 200ms;
+		}
+		.stagger3,
+		#header-nav .menu-item.stagger3,
+		.active [class*='-box'] .content ul li:nth-of-type(4) {
+			-moz-transition-delay: 250ms;
+			-webkit-transition-delay: 250ms;
+			-o-transition-delay: 250ms;
+			transition-delay: 250ms;
+		}
+		.stagger4,
+		#header-nav .menu-item.stagger4 {
+			-moz-transition-delay: 300ms;
+			-webkit-transition-delay: 300ms;
+			-o-transition-delay: 300ms;
+			transition-delay: 300ms;
+		}
+		.stagger5,
+		#header-nav .menu-item.stagger5 {
+			-moz-transition-delay: 350ms;
+			-webkit-transition-delay: 350ms;
+			-o-transition-delay: 350ms;
+			transition-delay: 350ms;
+		}
+		.stagger6,
+		#header-nav .menu-item.stagger6 {
+			-moz-transition-delay: 300ms;
+			-webkit-transition-delay: 300ms;
+			-o-transition-delay: 300ms;
+			transition-delay: 300ms;
+		}
+		.stagger7,
+		#header-nav .menu-item.stagger7 {
+			-moz-transition-delay: 350ms;
+			-webkit-transition-delay: 350ms;
+			-o-transition-delay: 350ms;
+			transition-delay: 350ms;
+		}
+}

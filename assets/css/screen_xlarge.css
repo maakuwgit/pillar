@@ -1,0 +1,122 @@
+/* Support for Large Screen Up */
+@media screen and (min-width: 112.5em) {	
+	/* Resets & Repeatables */
+	body, button, input, select, textarea {
+  	font-size: 1.1875vw;
+	}
+	.vector-box li, 
+	.gradient-box li, 
+	.generic li, 
+	.photo-box .content li {
+	  font-size: 1.0675vw;
+	}
+	
+	h1 {
+		font-size: 3vw;
+	}
+	h3, .h3 {
+		font-size: 2.25vw;
+	}
+	h4, .h4 {
+		font-size: 1.625vw;
+	}
+	p {
+		font-size: 1vw;
+		line-height: 1.25;
+	}
+	td, th, table caption div, label {
+	  font-size: 0.875vw;
+	}
+	
+	/* Header */
+	#top-nav {
+		font-size: .875vw;
+	}
+	#masthead {
+	  /*padding: 0.75vh 16.6875vw 0 16.6875vw;*/
+	  padding: 1rem 7.125rem 0 7.125rem;
+	}
+		#masthead .logo,
+		footer .logo {
+			width: 10vw;
+		}
+		#masthead a {
+		  font-size: 1vw;
+		}
+	#header-nav .sub-menu a {
+	  font-size: 0.875vw;
+	}
+			
+	#header-nav {
+		max-width: 60vw;
+		margin-right: auto;
+	}
+	#header-menu > .menu-item > a {
+	  height: 7.875vh;
+	}
+	.logo img {
+		max-width: 11vw;
+		height: auto;
+	}
+		
+	/* Footer */
+	footer .social a, 
+	footer .social .fa {
+	  margin-left: 0.3125vw;
+  }
+  footer address, 
+  footer .widget .menu-item {
+	  font-size: 0.875vw;
+	}
+	.site-info p {
+		font-size: 0.875vw;
+	}
+  
+  
+	body.home [data-background].hero {
+  	height: 68vh;
+  }
+	
+	/* Boxes & Callouts */
+	.generic address,
+	.generic p {
+		font-size: 1.25vw;
+	}
+		.generic address strong {
+			font-size: 1.875vw;
+		}
+	.generic dl, 
+	.generic h2 {
+		font-size: 2vw;
+	}
+	
+	.generic li {
+		font-size: 1.125vw;
+	}
+	
+	.gradient-box h2 {
+		font-size: 2.3125vw;
+	}
+	.callout h2 {
+	  font-size: 2.125vw;
+	}
+	.icon-box li {
+	  font-size: 1vw;
+	}
+	.photo-box figure {
+	  min-height: 55vh;
+	}
+	.vector-box h5 {
+		font-size: 1.375vw;
+	}
+	.banner {
+  	font-size: 1.5vw;
+  }
+	.tml-login h2 {
+		font-size: 1.5vw;
+	}
+	
+	.tml-action-links a {
+		font-size: 1vw;
+	}
+}

@@ -1,0 +1,58 @@
+main.login {
+	position: relative;
+}
+#registerform + .tml-action-links {
+	display: none;
+}
+.tml {
+  max-width: 400px;
+  width: calc(100vw - 4rem);
+  margin: 4rem auto;
+  padding: 2rem 0;
+  position: relative;
+  z-index: 2;
+  background-color: rgba(244, 244, 244, 0.94);
+}
+	.tml .logo {
+		width: 45%;
+		max-width: 197px;
+		min-width: 140px;
+	}
+	
+	.tml .error {
+	  padding: 0.625rem 2rem;
+	  margin-top: -1rem;
+	  margin-bottom: 1rem;
+	  color: #fff;
+	  text-align: center;
+	  background-color: #ef5b5b;
+	}
+	
+ .tml > *:not(hr):not(.error) {
+	  margin-left: 32px;
+	  margin-left: 2rem;
+	  margin-right: 32px;
+	  margin-right: 2rem;
+	}
+	.tml .message {
+		margin-bottom: 32px;
+		margin-bottom: 2rem;
+	}
+	
+.tml-action-links {
+	position: absolute;
+	bottom: 42px;
+	bottom: 2.625rem;
+	right: 0;
+	list-style: none;
+	margin-bottom: auto;
+}
+main.login [data-background] figcaption {
+	display: none;
+}
+
+body:not(.home) main.login [data-background].hero  {
+  height: 100%;
+  position: absolute;
+  width: 100vw;
+}
